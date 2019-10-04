@@ -9,7 +9,7 @@ module.exports = {
     },
     db_postgres: {
         host: 'ec2-54-235-100-99.compute-1.amazonaws.com',
-        user: 'd45ukis5c6flhk',
+        user: 'usacrmerjjkorc',
         password: 'a138f4f0f090f87f0e65e0172640baee8dd5c87b2646b0a0a5ba6729a479ce2d',
         port:'5432',
         database: 'd45ukis5c6flhk'
