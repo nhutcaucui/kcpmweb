@@ -21,20 +21,17 @@ import { EditScheduleModalComponent } from './components/edit-schedule-modal/edi
 export { EditScheduleModalComponent };
 import { ResultMessageModalComponent } from './components/result-message-modal/result-message-modal.component';
 export { ResultMessageModalComponent };
-import { ImportModalComponent } from './components/import-modal/import-modal.component';
-export { ImportModalComponent };
+
 import { MapModalComponent } from './components/map-modal/map-modal.component';
 export { MapModalComponent };
-import { ExportModalComponent } from './components/export-modal/export-modal.component';
-export { ExportModalComponent };
+
 import { CreateAbsenceRequestModalComponent } from './components/create-absence-request-modal/create-absence-request-modal.component';
 export { CreateAbsenceRequestModalComponent };
 import { SendFeedbackModalComponent } from './components/send-feedback-modal/send-feedback-modal.component';
 export { SendFeedbackModalComponent };
 import { QRCodeComponent } from './components/qr-code.component';
 export { QRCodeComponent };
-import { QuizDisplayComponent } from './components/quiz-display/quiz-display.component';
-export { QuizDisplayComponent };
+
 import {AppService} from './services/app.service';
 export {AppService};
 import {CourseService} from './services/courses.service';
@@ -49,6 +46,10 @@ import {ScheduleService} from './services/schedule.service';
 export {ScheduleService};
 import {StudentService} from './services/student.service';
 export {StudentService};
+import { ImportModalComponent } from './components/import-modal/import-modal.component';
+export { ImportModalComponent };
+import { ExportModalComponent } from './components/export-modal/export-modal.component';
+export { ExportModalComponent };
 import {AbsenceRequestService} from './services/absence-request.service';
 export {AbsenceRequestService};
 import {AuthGuardService} from './services/auth-guard.service';
@@ -67,6 +68,8 @@ import {QuizService} from './services/quiz.service';
 export {QuizService};
 import {ClassesService} from './services/classes.service';
 export {ClassesService};
+import { QuizDisplayComponent } from './components/quiz-display/quiz-display.component';
+export { QuizDisplayComponent };
 import {ProgramsService} from './services/programs.service';
 export {ProgramsService};
 import {NotificationService} from './services/notification.service';
